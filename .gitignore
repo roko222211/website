@@ -1,0 +1,6 @@
+# Predložak za podstranice — ne objavljivati
+_template.html
+
+# OS
+.DS_Store
+Thumbs.db
