@@ -1,4 +1,5 @@
 import { config, fields, collection } from '@keystatic/core';
+import { mark } from './src/keystatic/Brand';
 
 export default config({
   // Faza 1: lokalno (uređivanje pri dev-u). U Fazi 2 prelazimo na 'github' + GitHub App.
@@ -6,7 +7,7 @@ export default config({
     kind: 'local',
   },
   ui: {
-    brand: { name: 'IRFHP — Vijesti' },
+    brand: { name: 'IRFHP — Vijesti', mark },
   },
   collections: {
     news: collection({

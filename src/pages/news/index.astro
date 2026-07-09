@@ -23,6 +23,11 @@ const fmt = (d: Date) => d.toISOString().slice(0, 10);
       <div class="news-list">
         {items.map((item) => (
           <article class="news-item">
+            {item.data.coverImage && (
+              <a href={`/news/${item.id}`} class="thumb-link">
+                <img class="thumb" src={item.data.coverImage} alt={item.data.title} loading="lazy" />
+              </a>
+            )}
             <p class="date">{fmt(item.data.date)}</p>
             <h3><a href={`/news/${item.id}`}>{item.data.title}</a></h3>
             {item.data.summary && <p>{item.data.summary}</p>}
