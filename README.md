@@ -28,7 +28,7 @@ Lokalni website dostupan je na `http://127.0.0.1:4321`.
 4. Dodaj, uredi ili obriši vijest i spremi promjenu.
 5. Pages CMS sprema promjenu u GitHub, a GitHub Actions automatski objavljuje website.
 
-Karla i Drago moraju imati pristup repozitoriju, a Pages CMS GitHub App mora biti instalirana samo za repo `website`. CMS nema `/admin` stranicu na websiteu ni zasebnu bazu. Konfiguracija se nalazi u `.pages.yml`.
+Karla i Drago mogu otvoriti `/admin`, koji ih preusmjerava na Pages CMS, ili izravno otići na `app.pagescms.org`. Moraju imati pristup repozitoriju, a Pages CMS GitHub App mora biti instalirana samo za repo `website`. CMS nema zasebnu bazu. Konfiguracija se nalazi u `.pages.yml`.
 
 ## Deploy
 
