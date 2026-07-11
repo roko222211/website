@@ -3,6 +3,6 @@ import markdoc from '@astrojs/markdoc';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://rotaryhealthprofessionals.org',
+  site: process.env.SITE_URL || 'https://rotaryhealthprofessionals.org',
   integrations: [markdoc()],
 });
