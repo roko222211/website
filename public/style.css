@@ -183,7 +183,7 @@ h2.section-title{font-size:clamp(1.7rem,3.6vw,2.5rem);font-weight:800;line-heigh
 .news-item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:28px;box-shadow:var(--shadow);overflow:hidden;transition:transform .2s,box-shadow .2s;display:flex;flex-direction:column}
 .news-item:hover{transform:translateY(-5px);box-shadow:var(--shadow-lg)}
 .news-item .thumb-link{display:block}
-.news-item .thumb{width:calc(100% + 56px);height:196px;object-fit:cover;display:block;margin:-28px -28px 20px}
+.news-item .thumb{width:calc(100% + 56px);max-width:none;height:196px;object-fit:cover;display:block;margin:-28px -28px 20px}
 .news-item .date{font-size:.76rem;color:var(--azure);font-weight:800;text-transform:uppercase;letter-spacing:.08em}
 .news-item h3{font-size:1.18rem;font-weight:800;margin:8px 0 10px;line-height:1.28}
 .news-item h3 a{text-decoration:none;color:var(--blue-dark)}
